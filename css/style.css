@@ -17,13 +17,142 @@ ul {
 header {
     font-family: "Anton";
     color: #f1f1f1;
-    font-size: 80px;
+    font-size: 7em;
 
+    margin-left: 7%;
 }
+
 
 #smallTitleText {
     font-family: "Anton";
     color: #fbce63;
     display: inline-block;
-    20px;
+    font-size: 0.4em;
+
+}
+
+nav {
+    font-family: "Anton";
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+/*seperation of Home*/
+nav li:not(#homeNav) {
+    display: inline-block;
+    font-size: 1.4em;
+
+}
+
+#homeNav {
+    font-size: 1.8em;
+    padding-bottom: 1em;
+}
+
+nav li a {
+    margin: 7.7em;
+}
+
+
+
+/*positioning ELLIE centered with HOME */
+nav li:nth-child(3),
+nav li:nth-child(4) {
+    position: relative;
+    left: 1.1em
+}
+
+nav li a:link {
+    color: #f1f1f1;
+}
+
+nav li a:visited {
+    color: #f1f1f1;
+}
+
+nav li a:focus,
+nav li a:hover {
+    color: #fbce63;
+}
+
+/*images for home page*/
+#mainImgs {
+    text-align: center;
+}
+
+#mainImgs li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#mainImgs li img {
+
+    max-width: 33%;
+}
+
+/*homepage text format*/
+#mainText {
+    font-family: "Anton";
+    color: #f1f1f1;
+    text-align: center
+}
+
+#mainText li {
+    display: inline-block;
+    max-width: 33%;
+    min-width: 33%;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0.8em;
+
+}
+
+#joelTxt,
+#ellieTxt,
+#gameTxt {
+    color: #f1f1f1;
+    margin-left: 13em;
+    margin-right: 44%;
+    display: inline-block;
+    font-family: "Helvetica";
+    position: relative;
+    bottom: 27em;
+}
+
+#pascalImg,
+#ellieImg,
+#gameImg {
+    margin-left: 58%;
+    display: inline-block;
+
+}
+
+
+/* footer*/
+
+footer {
+    color: #f1f1f1;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 18em;
+    margin-right: 18em;
+    margin-bottom: 1em;
+}
+
+#naughtyDogFooter {
+    color: #f1f1f1;
+    font-family: "Anton";
+    text-align: center;
+    margin-top: 6em;
+}
+
+#emailFooter {
+    color: #f1f1f1;
+    text-align: center;
+
+    font-family: "Anton";
 }
