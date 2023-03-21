@@ -11,4 +11,19 @@ ul {
     padding: 0;
     border: 0;
     background-color: #3f3f3f;
+
+}
+
+header {
+    font-family: "Anton";
+    color: #f1f1f1;
+    font-size: 80px;
+
+}
+
+#smallTitleText {
+    font-family: "Anton";
+    color: #fbce63;
+    display: inline-block;
+    20px;
 }
